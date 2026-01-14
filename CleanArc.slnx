@@ -1,0 +1,7 @@
+<Solution>
+  <Project Path="CleanArc.API/CleanArc.API.csproj" />
+  <Project Path="CleanArc.Application/CleanArc.Application.csproj" />
+  <Project Path="CleanArc.Domain/CleanArc.Domain.csproj" />
+  <Project Path="CleanArc.Infra.Data/CleanArc.Infra.Data.csproj" />
+  <Project Path="CleanArc.Infra.IoC/CleanArc.Infra.IoC.csproj" />
+</Solution>

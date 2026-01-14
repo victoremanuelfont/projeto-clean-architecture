@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\CleanArc.Domain\CleanArc.Domain.csproj" />
+    <ProjectReference Include="..\CleanArc.Application\CleanArc.Application.csproj" />
+    <ProjectReference Include="..\CleanArc.Infra.Data\CleanArc.Infra.Data.csproj" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+</Project>
