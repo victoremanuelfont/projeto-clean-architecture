@@ -1,6 +1,29 @@
-@CleanArc.API_HostAddress = http://localhost:5034
+@HostAddress = http://localhost:5034
 
-GET {{CleanArc.API_HostAddress}}/weatherforecast/
+### 1. Buscar Produtos (GET)
+GET {{HostAddress}}/api/products
 Accept: application/json
 
-###
+### 2. Criar Caderno (POST) - CLIQUE EM 'Send Request' ABAIXO
+POST {{HostAddress}}/api/products
+Content-Type: application/json
+
+{
+  "name": "Caderno Universitário",
+  "description": "Caderno de 10 matérias",
+  "price": 25.50,
+  "stock": 100,
+  "image": "caderno.jpg"
+}
+
+### 3. Criar Caneta (POST) - CLIQUE EM 'Send Request' ABAIXO
+POST {{HostAddress}}/api/products
+Content-Type: application/json
+
+{
+  "name": "Caneta Azul",
+  "description": "Caneta ponta fina",
+  "price": 2.00,
+  "stock": 500,
+  "image": "caneta.jpg"
+}
